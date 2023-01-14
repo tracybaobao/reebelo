@@ -1,0 +1,23 @@
+{
+  "name": "reebelo",
+  "version": "1.0.0",
+  "description": "The take home assignment project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracybaobao/reebelo.git"
+  },
+  "author": "Tracy Bao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracybaobao/reebelo/issues"
+  },
+  "homepage": "https://github.com/tracybaobao/reebelo#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.3.0"
+  }
+}
