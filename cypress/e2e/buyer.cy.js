@@ -37,7 +37,6 @@ describe('Reebelo critical case - buyer', () => {
     cy.get('#e2e-searchbar-search-results>a:nth-of-type(1)').click();
     cy.findByRole('heading',{name: /COLOR: MIDNIGHT/i}).should('be.visible');
   });
-    
 
   it('Add to the cart and checkout page', () => {
     cy.visit(Cypress.config('baseUrl') +'collections/apple-iphone-14');

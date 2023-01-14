@@ -4,7 +4,7 @@ describe('Reebelo critical case - seller', () => {
   var phoneType = 'iPhone 11 64GB';
   var IMEI = '12345678'
 
-  before(() =>{
+  beforeEach(() =>{
     cy.viewport('macbook-11');
     cy.visit(Cypress.config('baseUrl'));
     cy.wait(3000);
