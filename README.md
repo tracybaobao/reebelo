@@ -7,7 +7,7 @@ Add to card and checkout ( payment not implement)
 Seller your device 
 ```
 
-# Preparation:
+# Run the automation tests:
 install node.js 
 install your project : 
 ```
