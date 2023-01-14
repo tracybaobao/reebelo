@@ -1,7 +1,19 @@
 # reebelo
-This repository has the critical path of reebelo AU site. The test cases are 
+This repository has the critical path of reebelo AU site. The test cases are listed in the doc
+```
+Browser the product
+Search the product from search bar
+Add to card and checkout ( payment not implement)
+Seller your device 
+```
 
-# Preparation:
-## Install node.js 
-## install your project : npm install
-## run the test: npm test
+# Run the automation tests:
+install node.js 
+install your project : 
+```
+npm install
+```
+run the test: 
+```
+npm test
+```
