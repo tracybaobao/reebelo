@@ -34,6 +34,5 @@ describe('Reebelo critical case - seller', () => {
     cy.findByRole('heading', {name: 'Confirm Your Details'}).should('be.visible');
     cy.contains(phoneType);
     cy.contains(IMEI);
-
   });
 })
