@@ -8,7 +8,7 @@ Seller your device
 ```
 
 # Run the automation tests:
-install node.js 
+install [node.js](https://nodejs.dev/en/download/) if you dont have 
 install your project : 
 ```
 npm install
