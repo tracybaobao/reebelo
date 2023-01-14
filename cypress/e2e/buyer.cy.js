@@ -26,7 +26,6 @@ describe('Reebelo critical case - buyer', () => {
     cy.findAllByPlaceholderText(/Search by model/i).should('be.visible').type('iphone 14{enter}');
     // verify the search result page land
     cy.title().should('eq','Search results for iphone 14');
-   
   });
 
   it('Search the product from home page to product page', () => {
